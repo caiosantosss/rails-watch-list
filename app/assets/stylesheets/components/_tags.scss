@@ -11,17 +11,23 @@
 }
 
 .movie-tag-left {
-  color: white;
-  padding: 6px 16px;
-  border-radius: 4px;
-  background: #fcbf49;
-  transition: background 0.3s ease;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  text-decoration: none;
+  a {
+    color: white;
+    padding: 6px 16px;
+    border-radius: 4px;
+    background: #fcbf49;
+    transition: background 0.3s ease;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .movie-tag-left:hover {
-
+  a:hover {
+    background-color: #1edd88;
+    text-decoration: none;
+  }
 }
