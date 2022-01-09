@@ -7,9 +7,10 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
+  text-decoration: none;
 }
 
-.movie-tag-left{
+.movie-tag-left {
   color: white;
   padding: 6px 16px;
   border-radius: 4px;
@@ -19,4 +20,8 @@
   top: 1rem;
   left: 1rem;
   text-decoration: none;
+}
+
+.movie-tag-left:hover {
+
 }
